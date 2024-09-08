@@ -41,6 +41,11 @@ Esta aplicação web utiliza Streamlit para fornecer uma interface interativa pa
     ```bash
     streamlit run app.py
     ```
+
+### Link para a aplicação (LIVE)
+
+https://telemarketing-hi0i.onrender.com
+
     
 ## Ajuda
 
