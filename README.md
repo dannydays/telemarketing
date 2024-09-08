@@ -1,55 +1,59 @@
-# Título do projeto
+# Análise de Dados de Telemarketing com Streamlit
 
-Um simples resumo do uso/propósito do projeto.
+Um exemplo de aplicação web desenvolvida com Streamlit para analisar e filtrar dados de telemarketing a partir de um arquivo Excel.
 
 ## Descrição do projeto
 
-Um parágrafo aprofundando mais sobre o seu projeto e uma explicação geral do uso.
+Esta aplicação web utiliza Streamlit para fornecer uma interface interativa para analisar dados gerados por telemarketing. O usuário pode carregar um arquivo Excel contendo dados de chamadas e usar filtros para visualizar informações relevantes e insights a partir desses dados.
 
 ## Utilização
 
-### Dependencias
+### Dependências
 
-* Descreve quaisquer prerequisitos, bibliotecas, versão do SO, etc., que é necessário para rodar o projeto.
-* exemplo. Windows 10...
+* Python 3.8 ou superior
+* Matplotlib==3.9.2
+* NumPy==2.1.1
+* Pandas==2.2.2
+* Pillow==10.4.0
+* Seaborn==0.13.2
+* Streamlit==1.38.0
+* XlsxWriter==3.2.0
 
 ### Instalação
 
-* Como/aonde fazer o download do seu projeto/programa
-* Quaisquer modificação necessária nos arquivos/diretórios
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/dannydays/telemarketing.git
+    ```
+2. Navegue para o diretório do projeto:
+    ```bash
+    cd telemarketing
+    ```
+3. Instale as dependências:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ### Executando o projeto
 
-* Como rodar o projeto/programa
-* Passo a passo em tópicos (bullet points)
-```
-bloco de código para os comandos necessários
-```
-
+1. Certifique-se de que você está no diretório do projeto.
+2. Execute o aplicativo Streamlit:
+    ```bash
+    streamlit run app.py
+    ```
+    
 ## Ajuda
 
-Qualquer ponto importante de problemas ou erros comuns
-```
-comando para rodar se o programa tiver uma informação de ajuda
+Se você encontrar problemas ou precisar de ajuda adicional, verifique a documentação do Streamlit ou consulte a seção de problemas comuns no repositório do projeto.
+```bash
+streamlit --help
 ```
 
 ## Autores
 
 Nomes dos desenvolvedores do projeto e informação para entrar em contato.
 
-ex. Lucas Serra  
-ex. [@LucasSerra](https://www.linkedin.com/in/lucasserra03/)
-
-## Histórico de versões.
-
-* 0.2
-	* Ajustes de diversos bugs e otimização
-* 0.1
-    * Primeira versão
-
-## Licença de uso
-
-Esse projeto possui licença de uso [NAME HERE] - acesse o arquivo LICENSE.md para mais detalhes.
+[Daniel Dias](https://www.linkedin.com/in/dannydays/)
 
 ## Fontes de inspiração
 
