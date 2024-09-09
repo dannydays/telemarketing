@@ -194,12 +194,12 @@ def main():
         st.write('## Proporção de aceite')
         # PLOTS    
         if graph_type == 'Barras':
-            bank_raw_target_perc.plot(kind='bar', ax=ax[0], xlabel='', legend=False)
+            bank_raw_target_perc.plot(kind='bar', ax=ax[0], xlabel='', legend=False, rot=0)
             ax[0].bar_label(ax[0].containers[0])
             ax[0].set_title('Dados brutos', fontweight ="bold")
             ax[0].set_xticks([0,1])
             
-            bank_target_perc.plot(kind='bar', ax=ax[1], xlabel='', legend=False)
+            bank_target_perc.plot(kind='bar', ax=ax[1], xlabel='', legend=False, rot=0)
             ax[1].bar_label(ax[1].containers[0])
             ax[1].set_title('Dados filtrados', fontweight ="bold")
         else:
