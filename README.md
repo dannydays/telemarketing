@@ -44,7 +44,9 @@ Esta aplicação web utiliza Streamlit para fornecer uma interface interativa pa
 
 ### Link para a aplicação (LIVE)
 
-https://telemarketing-hi0i.onrender.com
+[Aplicação](https://telemarketing-hi0i.onrender.com)
+
+[Exemplo arquivo input CSV](https://github.com/dannydays/telemarketing/raw/main/bank-additional.csv)
 
     
 ## Ajuda
