@@ -1,10 +1,10 @@
 # Análise de Dados de Telemarketing com Streamlit
 
-Um exemplo de aplicação web desenvolvida com Streamlit para analisar e filtrar dados de telemarketing a partir de um arquivo Excel.
+Um exemplo de aplicação web desenvolvida com Streamlit para analisar e filtrar dados de telemarketing a partir de um arquivo CSV.
 
 ## Descrição do projeto
 
-Esta aplicação web utiliza Streamlit para fornecer uma interface interativa para analisar dados gerados por telemarketing. O usuário pode carregar um arquivo Excel contendo dados de chamadas e usar filtros para visualizar informações relevantes e insights a partir desses dados.
+Esta aplicação web utiliza Streamlit para fornecer uma interface interativa para analisar dados gerados por telemarketing. O usuário pode carregar um arquivo CSV contendo os dados, podendo aplicar filtros para visualizar informações relevantes e insights a partir desses dados.
 
 ## Utilização
 
